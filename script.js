@@ -14,11 +14,11 @@ let eventResponse;
 let tempResponse;
 // how can I put both, (event type === "formal" "Formal")
 // why will eventResponse have more than one condition?and event type
-if (eventType === "casual" || "Casual") {
+if (eventType === "casual") {
   eventResponse = "somthing comfy";
-} else if (eventType === "semi-formal" || "Semi-formal") {
+} else if (eventType === "semi-formal") {
   eventResponse = "a polo";
-} else if (eventType === "formal" || "Formal") {
+} else if (eventType === "formal") {
   eventResponse = "a suit";
 }
 if (tempature < 54) {
